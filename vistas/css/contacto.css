@@ -3,12 +3,15 @@ a {
     text-decoration: none;
     color: black;
     font-size: 1.6rem;
+
 }
 
 /* BODY */
 body {
     background-color: rgb(227, 245, 247);
+    background: linear-gradient(9deg, rgba(255, 255, 255, 1) 5%, rgba(31, 156, 173, 1) 100%, rgba(159, 58, 58, 0.5565819861431871) 100%, rgba(71, 70, 70, 1) 100%, rgba(52, 51, 51, 1) 100%);
 }
+
 
 
 /* HEADER */
@@ -208,6 +211,9 @@ iframe {
     z-index: 1;
 }
 
+
+
+
 .container-contact100::before {
     content: "";
     display: block;
@@ -240,23 +246,27 @@ iframe {
     border-radius: 10px;
     overflow: hidden;
     padding: 72px 150px 25px 150px;
+    height: 600px;
+    
 
     box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
     -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(9deg, rgba(255, 255, 255, 1) 5%, rgba(31, 156, 173, 1) 100%, rgba(159, 58, 58, 0.5565819861431871) 100%, rgba(71, 70, 70, 1) 100%, rgba(52, 51, 51, 1) 100%);
 }
 
 
 
 .contact100-form {
     width: 100%;
+    font-family: cursive;
 }
 
 .contact100-form-title {
     display: block;
-    font-family: SourceSansPro-Bold;
+    font-family: cursive;
     font-size: 30px;
     color: #333333;
     line-height: 1.2;
